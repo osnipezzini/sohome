@@ -1,0 +1,6 @@
+@SOHome.Finance_HostAddress = http://localhost:5121
+
+GET {{SOHome.Finance_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

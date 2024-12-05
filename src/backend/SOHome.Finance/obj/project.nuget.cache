@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "i5pc1xYkN6g9tYXjS0zjvXgb+TC+SCXQT4XaGfVSrZV1m3Yc7G6X8mLMN86e4F5qj24c3pbTsSU8sr29H3tbbQ==",
+  "success": true,
+  "projectFilePath": "/home/osni/Documentos/Projetos/SOHome/src/backend/SOHome.Finance/SOHome.Finance.csproj",
+  "expectedPackageFiles": [
+    "/home/osni/.nuget/packages/microsoft.aspnetcore.openapi/8.0.8/microsoft.aspnetcore.openapi.8.0.8.nupkg.sha512",
+    "/home/osni/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/osni/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/osni/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/home/osni/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/home/osni/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/home/osni/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
