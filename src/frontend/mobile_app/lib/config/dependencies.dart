@@ -10,6 +10,7 @@ import '../data/repositories/auth/auth_repository_dev.dart';
 import '../data/repositories/user/user_repository.dart';
 import '../data/repositories/user/user_repository_local.dart';
 import '../data/services/local/local_data_service.dart';
+import '../data/services/qr_code_scanner_service.dart';
 
 /// Shared providers for all configurations.
 List<SingleChildWidget> _sharedProviders = [
@@ -40,6 +41,7 @@ List<SingleChildWidget> get providersLocal {
         localDataService: context.read(),
       ) as UserRepository,
     ),
+    Provider.value(value: LocalDataService() as QrCodeScannerService),
     ..._sharedProviders,
   ];
 }
