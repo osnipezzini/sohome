@@ -1,4 +1,4 @@
-# mobile_app
+# SOHome
 
 A new Flutter project.
 

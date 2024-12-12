@@ -10,12 +10,11 @@ import '../data/repositories/auth/auth_repository_dev.dart';
 import '../data/repositories/user/user_repository.dart';
 import '../data/repositories/user/user_repository_local.dart';
 import '../data/services/local/local_data_service.dart';
+import '../data/services/local/local_qr_code_scanner_service.dart';
 import '../data/services/qr_code_scanner_service.dart';
 
 /// Shared providers for all configurations.
-List<SingleChildWidget> _sharedProviders = [
-  
-];
+List<SingleChildWidget> _sharedProviders = [];
 
 /// Configure dependencies for remote data.
 /// This dependency list uses repositories that connect to a remote server.
@@ -41,7 +40,8 @@ List<SingleChildWidget> get providersLocal {
         localDataService: context.read(),
       ) as UserRepository,
     ),
-    Provider.value(value: LocalDataService() as QrCodeScannerService),
+    Provider.value(
+        value: LocalDeviceQrCodeScannerService() as QrCodeScannerService),
     ..._sharedProviders,
   ];
 }
