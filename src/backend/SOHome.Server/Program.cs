@@ -11,4 +11,6 @@ var authDatabase = builder
 builder.AddProject<SOHome_Auth>("authentication")
     .WithReference(authDatabase);
 
-builder.Build().Run();
+builder
+    .Build()
+    .Run();
