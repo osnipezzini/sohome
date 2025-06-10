@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOHome.Finance", "SOHome.Finance\SOHome.Finance.csproj", "{36B3BC09-58AB-4B5A-BBFE-5976E59EA060}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOHome.Auth", "SOHome.Auth\SOHome.Auth.csproj", "{CE62B542-D9DC-4D25-BCE2-92782C395FD3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOHome.Server", "SOHome.Server\SOHome.Server.csproj", "{32C74E06-3512-473A-9322-B453938C8459}"
 EndProject
 Global
@@ -18,14 +14,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{36B3BC09-58AB-4B5A-BBFE-5976E59EA060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36B3BC09-58AB-4B5A-BBFE-5976E59EA060}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36B3BC09-58AB-4B5A-BBFE-5976E59EA060}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36B3BC09-58AB-4B5A-BBFE-5976E59EA060}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CE62B542-D9DC-4D25-BCE2-92782C395FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE62B542-D9DC-4D25-BCE2-92782C395FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE62B542-D9DC-4D25-BCE2-92782C395FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE62B542-D9DC-4D25-BCE2-92782C395FD3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{32C74E06-3512-473A-9322-B453938C8459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{32C74E06-3512-473A-9322-B453938C8459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32C74E06-3512-473A-9322-B453938C8459}.Release|Any CPU.ActiveCfg = Release|Any CPU
